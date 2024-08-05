@@ -1,1 +1,1 @@
-export { AnalogClock } from "@/components/AnalogClock";
+export { default as AnalogClock } from "@/components/AnalogClock";
