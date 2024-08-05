@@ -14,7 +14,7 @@ export default defineConfig({
     lib: {
       entry: path.resolve(__dirname, "src/index.js"),
       name: "promodoro-components",
-      fileName: "promodoro-components",
+      fileName: "index",
     },
     rollupOptions: {
       external: "./src",

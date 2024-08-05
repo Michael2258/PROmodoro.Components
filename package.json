@@ -1,13 +1,16 @@
 {
   "name": "@promodoro/promodoro-components",
-  "version": "0.0.2",
+  "version": "0.0.6",
   "type": "module",
-  "main": "./dist/promodoro-components.js",
-  "module": "./dist/promodoro-components.umd.cjs",
+  "main": "./dist/index.js",
+  "module": "./dist/index.umd.cjs",
+  "keywords": ["pomodoro", "promodoro"],
+  "license": "MIT",
+  "author": "shushichuchi",
   "exports": {
     ".": {
-      "import": "./dist/promodoro-components.js",
-      "require": "./dist/promodoro-components.umd.cjs"
+      "import": "./dist/index.js",
+      "require": "./dist/index.umd.cjs"
     }
   },
   "scripts": {
@@ -19,7 +22,6 @@
   "dependencies": {
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
-    "dist": "link:/home/seta/helloworld/PROmodoro.Components/dist",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "storybook": "^8.2.5",
